@@ -118,7 +118,7 @@ body {
     top: 1rem;
     color: #bfd4f5;
     background: #2d323b;
-/*     animation: btn 3s infinite; */
+    /* animation: btn 3s infinite; */
     border: none;
     cursor: pointer;
 }
@@ -235,25 +235,25 @@ ul{
 #skills{
     background-color: #edcbf2;
     color: #0d254a;
-    animation: cchange1 12s infinite;
+    animation: cchange1 16s infinite;
 }
 
 #projects{
     color: #edcbf2;
     background-color: #3f3f3f;
-    animation: cchange2 12s infinite;
+    animation: cchange2 16s infinite;
 }
 
 #certifications{
     color: #edcbf2;
     background-color: #3f3f3f;
-    animation: cchange3 12s infinite;
+    animation: cchange3 16s infinite;
 }
 
 #about{
     color: #edcbf2;
     background-color: #3f3f3f;
-    animation: cchange4 12s infinite;
+    animation: cchange4 16s infinite;
 }
 
 @keyframes cchange1{
@@ -374,4 +374,15 @@ a{
         flex-direction: column;
         margin: auto auto;
     }
+    .card-body a{
+        color: #edcbf2;
+    }
+}
+
+#end{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
 }
