@@ -61,7 +61,7 @@ skills.addEventListener('click', () =>{
 about.addEventListener('click', () => {
     flag=1;
     card.classList.add('deactivate');
-    card.innerHTML = '<ul class="card-body" id="about-body"><li>Native iOS, Native Android, Flutter, React Native, Xamarin: Full Stack mobile dev certificate course from Udemy</li><li>Nano, SSH</li><li>Door Security project</li><li>D3.js for Data Visualization certification from freeCodeCamp</li><li>Resume website generator/ builder web application (Landing page created)</li></ul>';
+    card.innerHTML = '<ul class="card-body" id="about-body"><li>Native iOS, Native Android, Flutter, React Native, Xamarin: Full Stack mobile dev certificate course from Udemy</li><li>Nano, SSH</li><li>Door Security project</li><li>D3.js for Data Visualization certification from freeCodeCamp</li><li>Resume website generator/ builder web application (Landing page created)</li><li>Ongoing project for hackCOVID 2.0</li></ul>';
     setTimeout(()=>{
         card.classList.remove('deactivate');
     }, 2000);
