@@ -52,7 +52,7 @@ function autowrite(){
 skills.addEventListener('click', () =>{
     flag=1;
     card.classList.add('deactivate');
-    card.innerHTML = '<ul id="skills-body" class="card-body"><li>Java: Proficient in commonly used functions, arrays, strings; stack, linked list, queue, binary tree; file operations</li><li>Python: Proficient in commonly used functions, arrays, strings, lists, dictionaries</li><li>JavaScript: Proficient in all commonly used functions</li><li>Flask, Django in Python</li><li>HTML</li><li>CSS</li><li>Node.js and Express.js</li><li>Numpy, pandas, matplotlib, bokeh, Seaborn (in Jupyter or any normal IDE)</li><li>Flutter and Dart: intermediate level proficiency</li><li>Azure blob storage (in python)</li><li>Linux CLI: Basic knowledge</li><li>Leadership and Management, Content writing and presentation</li><li>Fast learner, self learner</li></ul>';
+    card.innerHTML = '<ul id="skills-body" class="card-body"><li>Java: Proficient in commonly used functions, arrays, strings; stack, linked list, queue, binary tree; file operations</li><li>Python: Proficient in commonly used functions, arrays, strings, lists, dictionaries</li><li>JavaScript: Proficient in all commonly used functions</li><li>Flask, Django in Python</li><li>HTML+CSS</li><li>Node.js and Express.js</li><li>Numpy, pandas, matplotlib, bokeh, Seaborn (in Jupyter or any normal IDE)</li><li>Flutter and Dart: intermediate level proficiency</li><li>Azure blob storage (in python)</li><li>Linux CLI: Basic knowledge</li><li>Leadership and Management, Content writing and presentation</li><li>Fast learner, self learner</li><li>Public speaking and debate</li></ul>';
     setTimeout(()=>{
         card.classList.remove('deactivate');
     }, 2000);
