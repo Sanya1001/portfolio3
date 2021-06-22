@@ -233,27 +233,29 @@ ul{
 }
 
 #skills{
-    background-color: #edcbf2;
+/*     background-color: #edcbf2;
     color: #0d254a;
-    animation: cchange1 16s infinite;
+    animation: cchange1 16s infinite; */
+    color: #edcbf2;
+    background-color: #3f3f3f;
 }
 
 #projects{
     color: #edcbf2;
     background-color: #3f3f3f;
-    animation: cchange2 16s infinite;
+/*     animation: cchange2 16s infinite; */
 }
 
 #certifications{
     color: #edcbf2;
     background-color: #3f3f3f;
-    animation: cchange3 16s infinite;
+/*     animation: cchange3 16s infinite; */
 }
 
 #about{
     color: #edcbf2;
     background-color: #3f3f3f;
-    animation: cchange4 16s infinite;
+/*     animation: cchange4 16s infinite; */
 }
 
 @keyframes cchange1{
