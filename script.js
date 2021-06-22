@@ -70,7 +70,7 @@ about.addEventListener('click', () => {
 projects.addEventListener('click', () => {
     flag=1;
     card.classList.add('deactivate');
-    card.innerHTML = '<ul class="card-body" id="projects-body"><li><a href="#">YearBook</a>&nbsp; Skills: Django, html, css, python</li><li><a href="https://github.com/AdityaMitra5102/BrailleCam">Cam Braille &#8287; &#8287; &#8287;</a> 6th position, Hack to Enable hackathon <br><br>Skills: python, azure blob storage, file operations, content writing, presentation <br>Skills used by teammate: rpi, pytesseract, pyttsx3, piCam</li><li><a href="#">Self Care</a> &nbsp;Skills: Django, python, vanilla JavaScript, html, css</li><li><a href="https://sanya1001.github.io/rbuild/">Resume Builder</a> &nbsp;Skills: (Django, python), vanilla JavaScript, html, css</li></ul>';
+    card.innerHTML = '<ul class="card-body" id="projects-body"><li><a href="https://github.com/Sanya1001/yearbook">YearBook</a>&nbsp; Skills: Django, html, css, python</li><li><a href="https://github.com/AdityaMitra5102/BrailleCam">Cam Braille &#8287; &#8287; &#8287;</a> 6th position, Hack to Enable hackathon <br><br>Skills: python, azure blob storage, file operations, content writing, presentation <br>Skills used by teammate: rpi, pytesseract, pyttsx3, piCam</li><li><a href="https://github.com/Sanya1001/selfcare">Self Care</a> &nbsp;Skills: Django, python, vanilla JavaScript, html, css</li><li><a href="https://sanya1001.github.io/rbuild/">Resume Builder</a> &nbsp;Skills: (Django, python), vanilla JavaScript, html, css</li></ul>';
     setTimeout(()=>{
         card.classList.remove('deactivate');
     }, 2000);
