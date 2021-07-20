@@ -61,7 +61,7 @@ skills.addEventListener('click', () =>{
 about.addEventListener('click', () => {
     flag=1;
     card.classList.add('deactivate');
-    card.innerHTML = '<ul class="card-body" id="about-body"><li>Native iOS, Native Android, Flutter, React Native, Xamarin: Full Stack mobile dev certificate course from Udemy</li><li>Nano, SSH</li><li>Door Security project</li><li>D3.js for Data Visualization certification from freeCodeCamp</li><li>Resume website generator/ builder web application (Landing page created)</li><li>Ongoing project for hackCOVID 2.0</li></ul>';
+    card.innerHTML = '<ul class="card-body" id="about-body"><li>Native iOS, Native Android, Flutter, React Native, Xamarin: Full Stack mobile dev certificate course from Udemy</li><li>Nano, SSH</li><li>Door Security project</li><li>D3.js for Data Visualization certification from freeCodeCamp</li><li>Resume website generator/ builder web application (Landing page created)</li><li>Scientific computing with python certification</li></ul>';
     setTimeout(()=>{
         card.classList.remove('deactivate');
     }, 2000);
@@ -79,7 +79,7 @@ projects.addEventListener('click', () => {
 certifications.addEventListener('click', () => {
     flag=1;
     card.classList.add('deactivate');
-    card.innerHTML = '<ul id="certifications-body" class="card-body"><li><a href="https://www.freecodecamp.org/certification/sanya1001/responsive-web-design" target="_blank">Responsive web design certification</a> from freeCodeCamp.org</li><li><a href="https://www.freecodecamp.org/certification/sanya1001/data-analysis-with-python-v7" target="_blank">Data Analysis with Python developer certification</a> from freeCodeCamp.org</li></ul>';
+    card.innerHTML = '<ul id="certifications-body" class="card-body"><li><a href="https://www.freecodecamp.org/certification/sanya1001/responsive-web-design" target="_blank">Responsive web design certification</a> from freeCodeCamp.org</li><li><a href="https://www.freecodecamp.org/certification/sanya1001/data-analysis-with-python-v7" target="_blank">Data Analysis with Python developer certification</a> from freeCodeCamp.org</li><li><a href="https://www.freecodecamp.org/certification/sanya1001/javascript-algorithms-and-data-structures" target="_blank">JavaScript algorithms and data structures developer certification</a> from freeCodeCamp.org</li></ul>';
     setTimeout(()=>{
         card.classList.remove('deactivate');
     }, 2000);
