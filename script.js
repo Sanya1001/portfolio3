@@ -52,7 +52,7 @@ function autowrite(){
 skills.addEventListener('click', () =>{
     flag=1;
     card.classList.add('deactivate');
-    card.innerHTML = '<ul id="skills-body" class="card-body"><li>Java: Proficient in commonly used functions, arrays, strings; stack, linked list, queue, binary tree; file operations</li><li>Python: Proficient in commonly used functions, arrays, strings, lists, dictionaries</li><li>JavaScript: Proficient in all commonly used functions</li><li>Flask, Django in Python</li><li>HTML+CSS</li><li>Node.js and Express.js</li><li>Numpy, pandas, matplotlib, bokeh, Seaborn (in Jupyter or any normal IDE)</li><li>Flutter and Dart: intermediate level proficiency</li><li>Azure blob storage (in python)</li><li>Linux CLI: Basic knowledge</li><li>Leadership and Management, Content writing and presentation</li><li>Fast learner, self learner</li><li>Public speaking and debate</li></ul>';
+    card.innerHTML = '<ul id="skills-body" class="card-body"><li>Java: Proficient in commonly used functions, arrays, strings; stack, linked list, queue, binary tree; file operations</li><li>Python: Proficient in commonly used functions, arrays, strings, lists, dictionaries</li><li>JavaScript: Proficient in all commonly used functions</li><li>Flask, Django in Python</li><li>HTML+CSS</li><li>Node.js and Express.js</li><li>Numpy, pandas, matplotlib, bokeh, Seaborn (in Jupyter or any normal IDE)</li><li>Flutter and Dart: intermediate level proficiency</li><li>Azure blob storage (in python)</li><li>Linux CLI: Basic knowledge</li><li>Leadership and Management, Content writing and presentation</li><li>Fast learner, self learner</li><li>MIT AI2</li></ul>';
     setTimeout(()=>{
         card.classList.remove('deactivate');
     }, 2000);
@@ -61,7 +61,7 @@ skills.addEventListener('click', () =>{
 about.addEventListener('click', () => {
     flag=1;
     card.classList.add('deactivate');
-    card.innerHTML = '<ul class="card-body" id="about-body"><li>Native iOS, Native Android, Flutter, React Native, Xamarin: Full Stack mobile dev certificate course from Udemy</li><li>Nano, SSH</li><li>Door Security project</li><li>D3.js for Data Visualization certification from freeCodeCamp</li><li>Resume website generator/ builder web application (Landing page created)</li><li>Scientific computing with python certification</li></ul>';
+    card.innerHTML = '<ul class="card-body" id="about-body"><li>Native iOS, Native Android, Flutter, React Native, Xamarin: Full Stack mobile dev certificate course from Udemy</li><li>Nano, SSH</li><li>Door Security project</li><li>Resume website generator/ builder web application (Landing page created)</li><li>Arduino with Adafruit Gemma</li><li>Pytorch</li></ul>';
     setTimeout(()=>{
         card.classList.remove('deactivate');
     }, 2000);
@@ -79,8 +79,9 @@ projects.addEventListener('click', () => {
 certifications.addEventListener('click', () => {
     flag=1;
     card.classList.add('deactivate');
-    card.innerHTML = '<ul id="certifications-body" class="card-body"><li><a href="https://www.freecodecamp.org/certification/sanya1001/responsive-web-design" target="_blank">Responsive web design certification</a> from freeCodeCamp.org</li><li><a href="https://www.freecodecamp.org/certification/sanya1001/data-analysis-with-python-v7" target="_blank">Data Analysis with Python developer certification</a> from freeCodeCamp.org</li><li><a href="https://www.freecodecamp.org/certification/sanya1001/javascript-algorithms-and-data-structures" target="_blank">JavaScript algorithms and data structures developer certification</a> from freeCodeCamp.org</li></ul>';
+    card.innerHTML = '<ul id="certifications-body" class="card-body"><li><a href="https://www.freecodecamp.org/certification/sanya1001/scientific-computing-with-python-v7" target="_blank">Scientific Computing with Python certification</a> from freeCodeCamp.org</li><li><a href="https://www.freecodecamp.org/certification/sanya1001/responsive-web-design" target="_blank">Responsive web design certification</a> from freeCodeCamp.org</li><li><a href="https://www.freecodecamp.org/certification/sanya1001/data-analysis-with-python-v7" target="_blank">Data Analysis with Python developer certification</a> from freeCodeCamp.org</li><li><a href="https://www.freecodecamp.org/certification/sanya1001/javascript-algorithms-and-data-structures" target="_blank">JavaScript algorithms and data structures developer certification</a> from freeCodeCamp.org</li></ul>';
     setTimeout(()=>{
         card.classList.remove('deactivate');
     }, 2000);
 })
+
