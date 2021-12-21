@@ -4,82 +4,244 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sania Sinha</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Cookie&family=Rancho&display=swap" rel="stylesheet">
-    <title>HOME: SANIA SINHA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Josefin+Sans:wght@300&family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="spin-container" id="spin-container">
-        <div class="spin" id="loader"></div>
-        <div class="spin" id="loader2"></div>
-        <div class="spin" id="loader3"></div>
-        <div class="spin" id="loader4"></div>
-        <span id="text">WELCOME...</span>
+    <div class="nav-item">
+        <button id="nav-btn">☰</button>
     </div>
-    <div id="main" class="remove">
-        <nav id="navbar">
-            <div class="navbar">
-                <div class="nav-item">Sania Sinha</div>
-                <div class="nav-item">
-                    <button id="nav-btn">About</button>
+    <nav id="nav">
+        <ul>
+            <li>
+                <div class="nav-item" id="navitem1">
+                    <a href="#about">About</a>
                 </div>
-            </div>
-            <div class="links remove" id="links"> <br>
+            </li>
+            <li>
+                <div class="nav-item">
+                    <a href="#ed">Education</a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-item">
+                    <a href="#skills">Skills</a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-item">
+                    <a href="#exp">Experience</a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-item">
+                    <a href="#proj">Projects</a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-item">
+                    <a href="#cert">Certifications</a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-item">
+                    <a href="#ach">Achievements</a>
+                </div>
+            </li>
+            <!-- <li>
+                <div class="nav-item">
+                    
+                </div>
+            </li> -->
+        </ul>
+    </nav>
+    <div id="navbar">
+        <div class="navitem">
+            <span id="title">Sania Sinha</span>
+        </div>
+        <div class="navitem">
+            <a href="#about">About</a>
+        </div>
+        <div class="navitem">
+            <a href="#ed">Education</a>
+        </div>
+        <div class="navitem">
+            <a href="#skills">Skills</a>
+        </div>
+        <div class="navitem">
+            <a href="#exp">Experience</a>
+        </div>
+        <div class="navitem">
+            <a href="#proj">Projects</a>
+        </div>
+        <div class="navitem">
+            <a href="#cert">Certifications</a>
+        </div>
+        <div class="navitem">
+            <a href="#ach">Achievements</a>
+        </div>
+        <!-- <div class="nav-item"></div>
+        <div class="nav-item"></div> -->
+    </div>
+    <div id="contact">
+        <div class="c-item" >
+            <a href="mailto:sinhasa3@msu.edu">sinhasa3@msu.edu</a>
+        </div>
+        <div class="c-item">
+            <a href="https://github.com/Sanya1001">Github</a>
+        </div>
+        <div class="c-item">
+            <a href="https://www.linkedin.com/in/sania-sinha-20aa07216/">LinkedIn</a>
+        </div>
+        <!-- <div class="c-item"></div>
+        <div class="c-item"></div> -->
+    </div>
+    <div id="main">
+        <div id="about" class="item">
+            <div class="header">About</div>
+            <div class="cont">
                 <ul>
-                    <li>Preferred name(s): Sania or Sanya</li>
-                    <li>Pronouns: she/they</li>
-                    <li>Languages: English, Bengali, Hindi (native speaker proficiency in all three)</li>
-                    <li>Hi there! I am a freshman at Michigan State University in Computer Science for 
-                        my Bachelor's with a minor in Data Science.  
-                        I am interested in AI, automation and data visualization/ analysis.
-                        I am passionate about technology promoting inclusivity and health. 
+                    <li>Pronouns: she/her/hers</li>
+                    <li>Hometown: Kolkata, West Bengal, India</li>
+                    <li>Interests: AI and Machine Learning, Data Analysis</li>
+                    <li>Hobbies: Art</li>
+                    <li>Undergraduate freshman</li>
+                    <li>Languages: English, Bengali, Hindi (Native speaker proficiency)</li>
+                    <!-- <li></li> -->
+                </ul>
+            </div>
+        </div>
+        <div id="ed" class="item">
+            <div class="header">Education</div>
+            <div class="cont">
+                <ul>
+                    <li>B.S. Computer Science with minor in Data Sience- Michigan State University, Honors College & College of Engineering
+                        <br>East Lansing, Michigan, US</li>
+                    <li>High School (Science curriculum)- Salt Lake School
+                        <br>Kolkata, West Bengal, India</li>
+                </ul>
+            </div>
+        </div>
+        <div id="skills" class="item">
+            <div class="header">Skills</div>
+            <div class="cont">
+                <ul>
+                    <li>Java: Proficient <br>
+                        Experience: 6 years</li>
+                    <li>Python: Proficient <br>
+                        Experience: 1 year</li>
+                    <li>JavaScript: Proficient <br>
+                        Experience: >1 year </li>
+                    <li>HTML: Proficient <br>
+                        Experience: 7 years</li>
+                    <li>CSS and SASS: Proficient <br>
+                        Experience: >1 year</li>
+                    <li>Dart and Flutter: Intermediate Proficiency <br>
+                        Experience: &lt;6 months</li>
+                    <li>Arduino: Intermediate Proficiency <br>
+                        Experience: &lt;1 year</li>
+                    <li>Numpy, Matplotlib, Seaborn, Pandas and other data analysis tools</li>
+                    <li>Django</li>
+                    <li>MIT AI2: Proficient <br>
+                        Experience: &lt;6 months</li>
+                    <li>MS Office, Project presentation, Content writing, Leadership, Public speaking</li>
+                </ul>
+            </div>
+        </div>
+        <div id="exp" class="item">
+            <div class="header">Experience</div>
+            <div class="cont">
+                <ul>
+                    <li>Professorial Assistant under Dr. Parisa Kordjamshidi, Heterogenous Learning and Reasoning Lab, MSU <br>
+                        Focus on learning Natural Language Processing and Machine Learning in general, worked to build conference 
+                        website, did NLP data annotations and was a guest student in Natural Language Processing graduate class (CSE 842) <br>
+                        September 2021- present</li>
+                    <li>Head Girl, Salt Lake School <br>
+                        Organized and hosted school events, led student government <br>
+                        November 2019- December 2020</li>
+                    <!-- <li></li> -->
+                </ul>
+            </div>
+        </div>
+        <div id="proj" class="item">
+            <div class="header">Projects</div>
+            <div class="cont">
+                <ul>
+                    <li>
+                        <a href="https://github.com/AdityaMitra5102/BrailleCam">Cam Braille</a>: 6th position, Hack to Enable, 2021, Hackerearth (Team Project)
+                        <br>Skills: Python, Azure, Project Presentation, Content Writing
                     </li>
                     <li>
-                        I work at the Heterogenous Learning and Reasoning Lab under Dr. Parisa Kordjamshidi in AI, 
-                        Machine Learning and Natural Language Processing.
-                        I am currently working on data annotation for spatial role labelling.
+                        <a href="https://github.com/Sanya1001/python-projects">Python Projects</a>: A collection of short python Projects
+                        <br>Skills: Python
                     </li>
-                    <li id="contact-link">
-                       <a href="#contact">Feel free to contact me for collaborations or tech/math discussions</a> 
+                    <li>
+                        <a href="https://github.com/Sanya1001/yearbook">YearBook</a>: Online Yearbook
+                        <br>Skills: Python, Django, HTML
+                    </li>
+                    <li>
+                        <a href="https://clear-workshop.github.io/">CLeaR 2022</a>: Conference Website 
+                        <br>Skills: HTML, CSS, JavaScript
+                    </li>
+                    <li>
+                        <a href="https://sanya1001.github.io/rbuild/">Resume Builder</a>: Resume Generator and Job Advisor website (work in progress)
+                        <br>Skills: HTML, CSS, JavaScript
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div id="cert" class="item">
+            <div class="header">Certifications</div>
+            <div class="cont">
+                <ul>
+                    <li>
+                        <a href="https://www.freecodecamp.org/certification/sanya1001/responsive-web-design">Responsive Web Design certification</a>
+                        from freeCodeCamp
+                    </li>
+                    <li>
+                        <a href="https://www.freecodecamp.org/certification/sanya1001/data-analysis-with-python-v7">Data Analysis with Python</a>
+                        from freeCodeCamp
+                    </li>
+                    <li>
+                        <a href="https://www.freecodecamp.org/certification/sanya1001/javascript-algorithms-and-data-structures">JavaScript
+                            Algorithms and Data Structures certification</a> from freeCodeCamp
+                    </li>
+                    <li>
+                        <a href="https://www.freecodecamp.org/certification/sanya1001/scientific-computing-with-python-v7">Scientific Computing with
+                             Python</a> from freeCodeCamp
+                    </li>
+                    <li>
+                        <a href="Deloitte STEM Connect.pdf" target="_blank">Deloitte STEM Connect Virtual Experience</a>
                     </li>
                 </ul>
             </div>
-        </nav>
-        <div id="body">
-            <div class="body-item" id="skills">
-                <span class="header">
-                   <a href="#card">Skills</a> 
-                </span>
-            </div>
-            <div class="body-item" id="projects">
-                <span class="header">
-                   <a href="#card">Projects</a> 
-                </span>
-            </div>
-            <div class="body-item" id="certifications">
-                <span class="header">
-                    <a href="#card">Certifications</a>
-                </span>
-            </div>
-            <div class="body-item" id="about">
-                <span class="header">
-                    <a href="#card">Ongoing</a>
-                </span>
+        </div>
+        <div id="ach" class="item">
+            <div class="header">Achievements</div>
+            <div class="cont">
+                <ul>
+                    <li>Hack to enable, 2021, Hackerearth- 6th</li>
+                    <li>ISC 2021 (School passing exam)- 99.25% (All India Rank 3)</li>
+                    <li>Regional Mathematical Olympiad 2018- Qualifier and Indian National Mathematical Olympiad 2019- Participant</li>
+                    <li>Times Scholar 2018 and 2020, Times Group</li>
+                    <li></li>
+                </ul>
             </div>
         </div>
-        <br><br>
-        <div id="card"></div>
-        <div id="contact">
-            <ul>
-                <li>
-                    <a href="https://github.com/Sanya1001">Github: Sanya1001</a>
-                    <a href="mailto:sinhasaniasls@gmail.com">Mail: sinhasaniasls@gmail.com</a>
-                </li>
-            </ul>
+        <!-- <div id="about" class="item">
+            <div class="header"></div>
+            <div class="cont"></div>
         </div>
-        <br> <span id="end">Developed by Sania Sinha</span>  <br>
+        <div id="about" class="item">
+            <div class="header"></div>
+            <div class="cont"></div>
+        </div> -->
     </div>
 </body>
 </html>
